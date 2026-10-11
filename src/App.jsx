@@ -29,6 +29,7 @@ import {
 } from "react-icons/fa";
 import { Assest } from "./assets/Assest";
 import Podcast from "./Prodcost";
+import NotFound from "./NotFound";
 
 
 
@@ -1488,7 +1489,8 @@ function App() {
 
   return (
     <>
-      <Navbar />
+    <NotFound/>
+      {/* <Navbar />
 
       <main>
         <Hero />
@@ -1513,7 +1515,7 @@ function App() {
 
       <Footer />
 
-      <WhatsAppButton />
+      <WhatsAppButton /> */}
     </>
   );
 }
